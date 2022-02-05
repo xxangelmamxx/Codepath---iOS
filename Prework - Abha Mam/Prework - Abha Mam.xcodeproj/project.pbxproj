@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF29381526E598CD00AE8E37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF29381426E598CD00AE8E37 /* AppDelegate.swift */; };
+		FF29381726E598CD00AE8E37 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF29381626E598CD00AE8E37 /* SceneDelegate.swift */; };
+		FF29381926E598CD00AE8E37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF29381826E598CD00AE8E37 /* ViewController.swift */; };
+		FF29381C26E598CD00AE8E37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF29381A26E598CD00AE8E37 /* Main.storyboard */; };
+		FF29381E26E598CD00AE8E37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF29381D26E598CD00AE8E37 /* Assets.xcassets */; };
+		FF29382126E598CD00AE8E37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF29381F26E598CD00AE8E37 /* LaunchScreen.storyboard */; };
+		FF29382C26E598CE00AE8E37 /* Prework___Abha_MamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF29382B26E598CE00AE8E37 /* Prework___Abha_MamTests.swift */; };
+		FF29383726E598CE00AE8E37 /* Prework___Abha_MamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF29383626E598CE00AE8E37 /* Prework___Abha_MamUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF29382826E598CE00AE8E37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF29380926E598CD00AE8E37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF29381026E598CD00AE8E37;
+			remoteInfo = "Prework - Abha Mam";
+		};
+		FF29383326E598CE00AE8E37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF29380926E598CD00AE8E37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF29381026E598CD00AE8E37;
+			remoteInfo = "Prework - Abha Mam";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF29381126E598CD00AE8E37 /* Prework - Abha Mam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prework - Abha Mam.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF29381426E598CD00AE8E37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF29381626E598CD00AE8E37 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FF29381826E598CD00AE8E37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF29381B26E598CD00AE8E37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF29381D26E598CD00AE8E37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF29382026E598CD00AE8E37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF29382226E598CD00AE8E37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF29382726E598CE00AE8E37 /* Prework - Abha MamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prework - Abha MamTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF29382B26E598CE00AE8E37 /* Prework___Abha_MamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Prework___Abha_MamTests.swift"; sourceTree = "<group>"; };
+		FF29382D26E598CE00AE8E37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF29383226E598CE00AE8E37 /* Prework - Abha MamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prework - Abha MamUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF29383626E598CE00AE8E37 /* Prework___Abha_MamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Prework___Abha_MamUITests.swift"; sourceTree = "<group>"; };
+		FF29383826E598CE00AE8E37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF29380E26E598CD00AE8E37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF29382426E598CE00AE8E37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF29382F26E598CE00AE8E37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF29380826E598CD00AE8E37 = {
+			isa = PBXGroup;
+			children = (
+				FF29381326E598CD00AE8E37 /* Prework - Abha Mam */,
+				FF29382A26E598CE00AE8E37 /* Prework - Abha MamTests */,
+				FF29383526E598CE00AE8E37 /* Prework - Abha MamUITests */,
+				FF29381226E598CD00AE8E37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF29381226E598CD00AE8E37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF29381126E598CD00AE8E37 /* Prework - Abha Mam.app */,
+				FF29382726E598CE00AE8E37 /* Prework - Abha MamTests.xctest */,
+				FF29383226E598CE00AE8E37 /* Prework - Abha MamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF29381326E598CD00AE8E37 /* Prework - Abha Mam */ = {
+			isa = PBXGroup;
+			children = (
+				FF29381426E598CD00AE8E37 /* AppDelegate.swift */,
+				FF29381626E598CD00AE8E37 /* SceneDelegate.swift */,
+				FF29381826E598CD00AE8E37 /* ViewController.swift */,
+				FF29381A26E598CD00AE8E37 /* Main.storyboard */,
+				FF29381D26E598CD00AE8E37 /* Assets.xcassets */,
+				FF29381F26E598CD00AE8E37 /* LaunchScreen.storyboard */,
+				FF29382226E598CD00AE8E37 /* Info.plist */,
+			);
+			path = "Prework - Abha Mam";
+			sourceTree = "<group>";
+		};
+		FF29382A26E598CE00AE8E37 /* Prework - Abha MamTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF29382B26E598CE00AE8E37 /* Prework___Abha_MamTests.swift */,
+				FF29382D26E598CE00AE8E37 /* Info.plist */,
+			);
+			path = "Prework - Abha MamTests";
+			sourceTree = "<group>";
+		};
+		FF29383526E598CE00AE8E37 /* Prework - Abha MamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF29383626E598CE00AE8E37 /* Prework___Abha_MamUITests.swift */,
+				FF29383826E598CE00AE8E37 /* Info.plist */,
+			);
+			path = "Prework - Abha MamUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF29381026E598CD00AE8E37 /* Prework - Abha Mam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF29383B26E598CE00AE8E37 /* Build configuration list for PBXNativeTarget "Prework - Abha Mam" */;
+			buildPhases = (
+				FF29380D26E598CD00AE8E37 /* Sources */,
+				FF29380E26E598CD00AE8E37 /* Frameworks */,
+				FF29380F26E598CD00AE8E37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Prework - Abha Mam";
+			productName = "Prework - Abha Mam";
+			productReference = FF29381126E598CD00AE8E37 /* Prework - Abha Mam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF29382626E598CE00AE8E37 /* Prework - Abha MamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF29383E26E598CE00AE8E37 /* Build configuration list for PBXNativeTarget "Prework - Abha MamTests" */;
+			buildPhases = (
+				FF29382326E598CE00AE8E37 /* Sources */,
+				FF29382426E598CE00AE8E37 /* Frameworks */,
+				FF29382526E598CE00AE8E37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF29382926E598CE00AE8E37 /* PBXTargetDependency */,
+			);
+			name = "Prework - Abha MamTests";
+			productName = "Prework - Abha MamTests";
+			productReference = FF29382726E598CE00AE8E37 /* Prework - Abha MamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF29383126E598CE00AE8E37 /* Prework - Abha MamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF29384126E598CE00AE8E37 /* Build configuration list for PBXNativeTarget "Prework - Abha MamUITests" */;
+			buildPhases = (
+				FF29382E26E598CE00AE8E37 /* Sources */,
+				FF29382F26E598CE00AE8E37 /* Frameworks */,
+				FF29383026E598CE00AE8E37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF29383426E598CE00AE8E37 /* PBXTargetDependency */,
+			);
+			name = "Prework - Abha MamUITests";
+			productName = "Prework - Abha MamUITests";
+			productReference = FF29383226E598CE00AE8E37 /* Prework - Abha MamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF29380926E598CD00AE8E37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					FF29381026E598CD00AE8E37 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					FF29382626E598CE00AE8E37 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = FF29381026E598CD00AE8E37;
+					};
+					FF29383126E598CE00AE8E37 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = FF29381026E598CD00AE8E37;
+					};
+				};
+			};
+			buildConfigurationList = FF29380C26E598CD00AE8E37 /* Build configuration list for PBXProject "Prework - Abha Mam" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF29380826E598CD00AE8E37;
+			productRefGroup = FF29381226E598CD00AE8E37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF29381026E598CD00AE8E37 /* Prework - Abha Mam */,
+				FF29382626E598CE00AE8E37 /* Prework - Abha MamTests */,
+				FF29383126E598CE00AE8E37 /* Prework - Abha MamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF29380F26E598CD00AE8E37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF29382126E598CD00AE8E37 /* LaunchScreen.storyboard in Resources */,
+				FF29381E26E598CD00AE8E37 /* Assets.xcassets in Resources */,
+				FF29381C26E598CD00AE8E37 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF29382526E598CE00AE8E37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF29383026E598CE00AE8E37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF29380D26E598CD00AE8E37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF29381926E598CD00AE8E37 /* ViewController.swift in Sources */,
+				FF29381526E598CD00AE8E37 /* AppDelegate.swift in Sources */,
+				FF29381726E598CD00AE8E37 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF29382326E598CE00AE8E37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF29382C26E598CE00AE8E37 /* Prework___Abha_MamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF29382E26E598CE00AE8E37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF29383726E598CE00AE8E37 /* Prework___Abha_MamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF29382926E598CE00AE8E37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF29381026E598CD00AE8E37 /* Prework - Abha Mam */;
+			targetProxy = FF29382826E598CE00AE8E37 /* PBXContainerItemProxy */;
+		};
+		FF29383426E598CE00AE8E37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF29381026E598CD00AE8E37 /* Prework - Abha Mam */;
+			targetProxy = FF29383326E598CE00AE8E37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF29381A26E598CD00AE8E37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF29381B26E598CD00AE8E37 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF29381F26E598CD00AE8E37 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF29382026E598CD00AE8E37 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF29383926E598CE00AE8E37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF29383A26E598CE00AE8E37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF29383C26E598CE00AE8E37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Prework - Abha Mam/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "memo.com.Prework---Abha-Mam";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF29383D26E598CE00AE8E37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Prework - Abha Mam/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "memo.com.Prework---Abha-Mam";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF29383F26E598CE00AE8E37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Prework - Abha MamTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "memo.com.Prework---Abha-MamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prework - Abha Mam.app/Prework - Abha Mam";
+			};
+			name = Debug;
+		};
+		FF29384026E598CE00AE8E37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Prework - Abha MamTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "memo.com.Prework---Abha-MamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prework - Abha Mam.app/Prework - Abha Mam";
+			};
+			name = Release;
+		};
+		FF29384226E598CE00AE8E37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Prework - Abha MamUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "memo.com.Prework---Abha-MamUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Prework - Abha Mam";
+			};
+			name = Debug;
+		};
+		FF29384326E598CE00AE8E37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Prework - Abha MamUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "memo.com.Prework---Abha-MamUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Prework - Abha Mam";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF29380C26E598CD00AE8E37 /* Build configuration list for PBXProject "Prework - Abha Mam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF29383926E598CE00AE8E37 /* Debug */,
+				FF29383A26E598CE00AE8E37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF29383B26E598CE00AE8E37 /* Build configuration list for PBXNativeTarget "Prework - Abha Mam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF29383C26E598CE00AE8E37 /* Debug */,
+				FF29383D26E598CE00AE8E37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF29383E26E598CE00AE8E37 /* Build configuration list for PBXNativeTarget "Prework - Abha MamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF29383F26E598CE00AE8E37 /* Debug */,
+				FF29384026E598CE00AE8E37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF29384126E598CE00AE8E37 /* Build configuration list for PBXNativeTarget "Prework - Abha MamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF29384226E598CE00AE8E37 /* Debug */,
+				FF29384326E598CE00AE8E37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF29380926E598CD00AE8E37 /* Project object */;
+}
